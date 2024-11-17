@@ -3,6 +3,8 @@ layout: default
 title: "Niel Haldane G. Ramos Portfolio"
 ---
 
+![My Picture](assets/pics/profile.jpg){:class="profile-image"}
+
 # Welcome to My Portfolio
 
 Welcome to my personal portfolio. Navigate through the sections below to learn more about me, my education, and the programs I have created.
