@@ -15,16 +15,9 @@ plugins:
   - jekyll-seo-tag  
   - jekyll-feed    
 
-# Header pages to navigate between sections
 header_pages:
-  - Home: /index
-  - About: /about
-  - Projects: /projects
-  - Contact: /contact
+  - Home: /
 
-# Social media links
 social_links:
   github: "https://github.com/NielRamos-CS"
   linkedin: "https://www.linkedin.com/in/niel-haldane-ramos-28ba85337/"
-
-# Optional: Add any other customizations you want here
