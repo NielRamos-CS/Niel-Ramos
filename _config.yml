@@ -17,7 +17,7 @@ plugins:
 
 # Header pages to navigate between sections
 header_pages:
-  - Home: /
+  - Home: /index
   - About: /about
   - Projects: /projects
   - Contact: /contact
