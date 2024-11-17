@@ -26,22 +26,24 @@ header p {
   margin-top: 10px;
 }
 
-/* Profile Image Styling */
+//* Profile Image Styling */
 .profile-image {
-  display: block;
-  margin: 0 auto 20px; /* Center the image and add space below */
-  width: 120px; /* Adjust size to make it smaller */
-  height: 120px; /* Ensure it’s a perfect circle */
+  display: block; /* Centers the image in block layout */
+  margin: 0 auto 20px; /* Centers it horizontally and adds spacing below */
+  width: 150px; /* Ensure it's square */
+  height: 150px; /* Ensure it's square */
+  object-fit: cover; /* Ensures the image fills the circle without distortion */
   border-radius: 50%; /* Makes the image circular */
-  border: 3px solid #4b4b4b; /* Optional: Add a border */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Optional hover effect */
+  border: 3px solid #4b4b4b; /* Optional border for a framed look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hover effect */
 }
 
 .profile-image:hover {
-  transform: scale(1.1); /* Slightly grow the image on hover */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+  transform: scale(1.1); /* Slightly grows the image on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhances shadow on hover */
 }
+
 
 /* Navigation Logos Section */
 .navigation {
