@@ -26,18 +26,17 @@ header p {
   margin-top: 10px;
 }
 
-//* Profile Image Styling */
+/* Profile Image Styling */
 .profile-image {
-  display: block; /* Centers the image in block layout */
-  margin: 0 auto 20px; /* Centers it horizontally and adds spacing below */
-  width: 150px; /* Ensure it's square */
-  height: 150px; /* Ensure it's square */
-  object-fit: cover; /* Ensures the image fills the circle without distortion */
+  display: block;
+  margin: 0 auto 20px; /* Centers the image */
+  width: 150px; /* Set to desired size */
+  height: 150px; /* Ensure height matches width */
   border-radius: 50%; /* Makes the image circular */
-  border: 3px solid #4b4b4b; /* Optional border for a framed look */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hover effect */
+  object-fit: cover; /* Ensures the image fills the circle */
+  border: 2px solid #333; /* Optional border */
 }
+
 
 .profile-image:hover {
   transform: scale(1.1); /* Slightly grows the image on hover */
