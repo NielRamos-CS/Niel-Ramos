@@ -1,7 +1,30 @@
-body {
-  background-color: #f4f4f4;  /* Light gray background */
+/* Custom CSS for Portfolio Logos */
+
+/* Container to hold the logos in a row */
+.logo-container {
+  display: flex;
+  justify-content: center; /* Centers the logos horizontally */
+  align-items: center; /* Centers logos vertically */
+  gap: 20px; /* Adds space between the logos */
+  flex-wrap: wrap; /* Allows logos to wrap to the next line if needed */
+  margin-top: 20px; /* Adds some space above the logos */
 }
 
-h1, h2 {
-  color: #333;  /* Dark gray text */
+/* Styling for each logo */
+.logo {
+  width: 100px; /* Adjust the size of your logos */
+  transition: transform 0.3s ease, filter 0.3s ease; /* Smooth effect for scaling and brightness */
+}
+
+/* Hover effect for logos */
+.logo: hover {
+  transform: scale(1.1); /* Enlarge the logo on hover */
+  filter: brightness(1.2); /* Slightly brighten the logo */
+}
+
+/* Styling the links around the logos (optional) */
+.logo-link {
+  display: inline-block;
+  margin: 10px; 
+  text-align: center;
 }
