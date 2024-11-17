@@ -36,9 +36,12 @@ I am currently pursuing a degree in Computer Science at [Holy Angel University](
 
 ## Programs {#programs}
 
-I am actively involved in various programs at my university and the tech community. These include hackathons, coding competitions, and software development projects aimed at solving real-world problems.
+"I am continuously improving my coding skills by actively working on various software development projects.
 
----
+### Projects
+- **[Boolean Bot Battle](https://github.com/NielRamos-CS/Boolean-bot-batte)** 
+- **[Decentralized Voting System](https://github.com/NielRamos-CS/6BCHAIN_Project_MineBlocks)**
+- **[Anime Guessing Game](https://github.com/NielRamos-CS/Anime-Guessing-Game)**
 
 ## Contact {#contact}
 
