@@ -5,7 +5,7 @@ title: "Niel Haldane G. Ramos Portfolio"
 
 # Welcome to My Portfolio
 
-Welcome to my personal portfolio. Navigate through the sections below to know more about me, my education, and the programs I am involved in.
+Welcome to my personal portfolio. Navigate through the sections below to learn more about me, my education, and the programs I have created.
 
 ## Navigation
 - [About Me](#about)
@@ -16,7 +16,7 @@ Welcome to my personal portfolio. Navigate through the sections below to know mo
 
 ## About Me {#about}
 
-Hello! I'm Niel Haldane G. Ramos, a passionate web developer with a strong background in computer science. I have a keen interest in problem-solving and technology. My goal is to create innovative solutions that improve everyday life.
+Hello! I'm Niel Haldane G. Ramos, a dedicated computer science major with a strong passion for problem-solving and innovation in technology. I enjoy exploring various areas of computer science, including software development and web technologies. My goal is to create efficient and user-friendly applications that enhance everyday experiences. I am constantly seeking opportunities to expand my knowledge and skills in this dynamic field.
 
 ---
 
