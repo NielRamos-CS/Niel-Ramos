@@ -1,8 +1,23 @@
-tittle: Niel Haldane G. Ramos
-logo:
-description:
+title: Niel Haldane G. Ramos
+logo: /assets/images/logo.png  # Add your logo image here
+description: "A passionate web developer and tech enthusiast, exploring the world of code."
 show_download: true
 theme: jekyll-theme-merlot
 remote_theme: pages-themes/merlot@v0.2.0
 plugins:
-- jekyll-remote-theme
+  - jekyll-remote-theme
+  - jekyll-seo-tag  # Helps with SEO, very important for portfolios
+  - jekyll-feed    # Add an RSS feed to your site
+
+# Customize navigation links
+header_pages:
+  - Home: /
+  - About: /about
+  - Projects: /projects
+  - Contact: /contact
+
+# Configure social media links
+social_links:
+  twitter: "https://twitter.com/yourhandle"
+  github: "https://github.com/yourhandle"
+  linkedin: "https://www.linkedin.com/in/yourhandle"
