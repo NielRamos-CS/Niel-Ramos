@@ -9,20 +9,21 @@ body {
 }
 
 header {
-  background: #333;
-  color: #fff;
-  padding: 1rem 0;
+  background: #0056b3; /* Blue header */
+  color: white;
+  padding: 2rem 0;
   text-align: center;
 }
 
 header h1 {
   margin: 0;
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 
 header p {
   margin: 0;
   font-size: 1.2rem;
+  font-style: italic;
 }
 
 /* Section Styles */
@@ -30,49 +31,54 @@ section {
   padding: 2rem;
   margin: 1rem auto;
   max-width: 800px;
-  background: #fff;
+  background: white;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
 }
 
-h2 {
-  color: #555;
-  border-bottom: 2px solid #333;
+section h2 {
+  color: #0056b3; /* Blue headings */
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 2px solid #ddd;
   padding-bottom: 0.5rem;
-  margin-bottom: 1rem;
 }
 
-/* Project Cards */
-.project {
-  border: 1px solid #ddd;
-  padding: 1rem;
-  margin-bottom: 1rem;
-  border-radius: 8px;
-  transition: box-shadow 0.3s ease-in-out;
+ul {
+  list-style-type: none;
+  padding: 0;
 }
 
-.project:hover {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+ul li {
+  padding: 0.5rem 0;
 }
 
-.project h3 {
-  margin-top: 0;
+ul li strong {
+  color: #0056b3; /* Highlighted text */
 }
 
-/* Contact Section */
-#contact {
-  text-align: center;
+/* Links */
+a {
+  color: #0056b3;
+  text-decoration: none;
 }
 
-#contact p {
-  margin: 0.5rem 0;
+a:hover {
+  text-decoration: underline;
 }
 
 /* Footer */
 footer {
-  background: #333;
-  color: #fff;
+  background: #0056b3;
+  color: white;
   text-align: center;
   padding: 1rem 0;
   margin-top: 2rem;
+}
+
+/* Icons */
+i {
+  color: #0056b3; /* Icon color */
+  font-size: 1.2rem;
 }
