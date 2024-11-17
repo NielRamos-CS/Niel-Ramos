@@ -3,7 +3,7 @@ layout: default
 title: "Niel Haldane G. Ramos Portfolio"
 ---
 
-![My Picture](assets/pics/profile.jpg){:class="profile-image"}
+![My Picture](Assets/pics/Profile.jpg){:class="profile-image"}
 
 # Welcome to My Portfolio
 
