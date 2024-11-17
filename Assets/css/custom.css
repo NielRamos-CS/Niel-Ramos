@@ -26,6 +26,23 @@ header p {
   margin-top: 10px;
 }
 
+/* Profile Image Styling */
+.profile-image {
+  display: block;
+  margin: 0 auto 20px; /* Center the image and add space below */
+  width: 150px; /* Adjust size as needed */
+  height: 150px; /* Ensure it’s a perfect circle */
+  border-radius: 50%; /* Makes the image circular */
+  border: 4px solid #4b4b4b; /* Optional: Add a border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Optional hover effect */
+}
+
+.profile-image:hover {
+  transform: scale(1.1); /* Slightly grow the image on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
 /* Navigation Logos Section */
 .navigation {
   display: flex;
