@@ -18,7 +18,7 @@ plugins:
 # Header pages to navigate between sections
 header_pages:
   - Home: /
-  - About: about.md
+  - About: /about
   - Projects: /projects
   - Contact: /contact
 
