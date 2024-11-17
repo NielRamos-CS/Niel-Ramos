@@ -24,6 +24,12 @@ Hello! I'm Niel Haldane G. Ramos, a dedicated computer science major with a stro
 
 I am currently pursuing a degree in Computer Science at [Holy Angel University](https://hau.edu.ph/), where I am developing my skills in software development, algorithms, and web technologies.
 
+### Proficient in Programming Languages
+- **Python** 
+- **Java**
+- **JavaScript**
+
+
 ---
 
 ## Programs {#programs}
